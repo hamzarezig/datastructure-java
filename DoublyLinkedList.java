@@ -173,6 +173,7 @@ public class DoublyLinkedList<T> {
     
     //update methods 
     public void setAt(int index,T value){
+        if (index < 0 || index >= size) throw new IllegalArgumentException();
         Node <T> node;
         if(index<=size/2){
             node=head;
