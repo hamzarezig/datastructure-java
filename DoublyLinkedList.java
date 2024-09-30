@@ -14,9 +14,9 @@ class Node<T>{
 }
 
 public class DoublyLinkedList<T> {
-    int size ;
-    Node<T> head;
-    Node<T> tail;
+    private int size ;
+    private Node<T> head;
+    private Node<T> tail;
 
     public DoublyLinkedList(){
         size = 0;
