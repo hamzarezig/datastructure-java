@@ -1,17 +1,6 @@
+package dsa;
+
 import java.util.NoSuchElementException;
-
-// node class
-class Node<T>{
-    public T value;
-    public Node<T> next;
-    public Node<T> prev;
-
-    public Node(T value, Node<T> next, Node<T> prev){
-        this.value = value;
-        this.next = next;
-        this.prev = prev;
-    }
-}
 
 public class DoublyLinkedList<T> {
     private int size ;

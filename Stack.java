@@ -1,11 +1,4 @@
-class Node<T>{
-    public T value;
-    public Node<T> prev;
-    public Node(T value,Node<T> prev){
-        this.value = value;
-        this.prev = prev;
-    }
-}
+package dsa;
 
 public class Stack<T>{
     private Node<T> top;
@@ -13,7 +6,7 @@ public class Stack<T>{
     
     public Stack(){
         size = 0;
-        top = null;
+        top = null ;
     }
     public void push(T value){
         Node<T> node = new Node<T>(value,top) ;

@@ -1,8 +1,6 @@
+package dsa;
+
 import java.util.Iterator;
-/*
- * an example of dynamic array data structure in java
- *
-*/
 
 public class Array<T> implements Iterable<T>{ 
     private int length;
