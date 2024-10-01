@@ -1,4 +1,4 @@
-package dsa;
+package datastructure;
 
 public class Stack<T>{
     private Node<T> top;

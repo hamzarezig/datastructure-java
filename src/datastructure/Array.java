@@ -1,4 +1,4 @@
-package dsa;
+package datastructure;
 
 import java.util.Iterator;
 

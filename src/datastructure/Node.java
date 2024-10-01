@@ -1,6 +1,6 @@
-package dsa;
+package datastructure;
 
-public class Node<T>{
+class Node<T>{
     public T value;
     public Node<T> next;
     public Node<T> prev;

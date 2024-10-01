@@ -1,4 +1,4 @@
-package dsa;
+package datastructure;
 
 public class Queue<T>{
     private Node<T> head;
